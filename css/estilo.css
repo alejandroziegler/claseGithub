@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(46, 58, 149, 0.541);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+.menu{
+    background-color: rgba(5, 3, 107, 0.79);
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    padding: 20px;
+    color: aquamarine;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu li a:hover{
+    color: aquamarine;
+    background-color: black;
+    border-radius: 50%;
+}
+.img{
+    width: 600px;
+    height: 400px;
+    margin: 50px;
+    padding: 30;
+}
+.videos{
+    display:flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+}
+.titulo{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.foto{
+    width: 800px;
+    height: 1200px;
+    margin: 0% auto;
+}
+.colorLetra{
+    color: rgb(129, 23, 23);
+}
+.delafoto{
+    width: 800px;
+    margin: 0 auto;
+}
+.formulario{
+    width: 700px;
+    margin: 110px auto;
+    border: rgb(5, 5, 5) solid 5px;
+    padding: 1rem;
+}
+footer{
+    background-color: rgba(17, 10, 10, 0.774);
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(123, 104, 168);
+    }
+    .formulario{
+        width: 400px;
+    }
+    .colorLetra{
+        color: rgba(89, 50, 3, 0.841);
+    }
+    .img{
+        width: 500px;
+        margin: 30px;
+    }
+}
